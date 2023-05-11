@@ -1,0 +1,57 @@
+.header {
+overflow: hidden;
+background-color: #000000;
+}
+
+.header p{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 15px;
+    border-radius: 4px;
+}
+
+
+.inputField{
+    width: 40% !important;
+    padding: 1px;
+    margin-top: 5px;
+    margin-right: 6px;
+    border: none;
+    font-size: 17px;
+    color: white;
+}
+
+.header p.logo{
+    font-size: 22px;
+    font-weight: bold;
+    color: #FF0055;
+}
+
+.header p:hover{
+    background-color: black;
+    color: #f000ff;
+}
+
+.header p.active{
+    background-color: #f000ff;
+    color: white;
+}
+
+.header-right{
+    float: right;
+}
+
+@media screen and (max-width:500px){
+    .header p{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right{
+        float: none;
+    }
+}

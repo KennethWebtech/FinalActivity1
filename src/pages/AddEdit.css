@@ -1,0 +1,42 @@
+body{
+    background: url('bg4.gif') no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #4deeea;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: transparent;
+-webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 15px #4deeea;
+  color: white;
+  
+}
+
+input[type="submit"]{
+    width: 100%;
+    background-color:#f000ff ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 15px #f000ff;
+
+}
+input[type="submit"]:hover{
+    background-color:#4deeea ;
+    color: black;
+}

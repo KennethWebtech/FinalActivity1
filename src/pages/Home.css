@@ -1,0 +1,88 @@
+body{
+    background: url('bg4.gif') no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.styled-table{
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    max-width: 900px;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px #4deeea;
+    -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  color: white;
+}
+
+.styled-table thead tr{
+    background-color: #f000ff;
+    color: white;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td{
+    padding: 8px 10px;
+}
+
+.styled-table tbody tr{
+    border-bottom: 1px solid #4deeea;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: black;
+    opacity: .6;
+}
+
+.styled-table tbody tr:last-of-type{
+    border-bottom: 2px solid #f000ff;
+}
+
+.btn{
+    border:none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 1px 1px;
+    cursor: pointer;
+}
+
+.btn-edit{
+    background-color: #4deeea;
+}
+
+.btn-delete{
+    background-color: #f000ff;
+}
+
+.btn-view{
+    background-color: #e7e7e7;
+    color: black;
+}
+
+.dropdown{
+    width: 20%;
+    margin: 5px;
+}
+
+.btn-reset{
+    background-color: #FF8000;
+    color: black;
+}
+
+.btn-active{
+    background-color: #00FFBD;
+    color: black;
+}
+
+.btn-inactive{
+    background-color: #FF00BD;
+    color: black;
+}
